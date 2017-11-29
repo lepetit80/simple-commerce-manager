@@ -9,6 +9,7 @@ import { FooterComponent } from '../footer/footer.component';
   imports: [
     CommonModule
   ],
-  declarations: [NavbarComponent, SidebarComponent, FooterComponent]
+  declarations: [NavbarComponent, SidebarComponent, FooterComponent],
+  exports: [NavbarComponent, SidebarComponent, FooterComponent]
 })
 export class ScmMainModule { }
